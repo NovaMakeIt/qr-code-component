@@ -19,24 +19,18 @@ body {
     display: flex;
     flex-direction: column;
     box-shadow: 5px 5px 5px rgba(90, 89, 89, 0.2);
-    
-    
 }
 
 .qr-code {
-    margin: 16px 16px 0px 16px;
+    padding: 16px 16px 0px 16px;
     width: 286px;
     height: 286px;
-    border-radius: 20px;
-    
-    
 }
 
 img {
     max-width: 286px;
     max-height: 286px;
     border-radius: 20px;
-    object-fit: cover;
 }
 
 h2 {
