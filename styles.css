@@ -1,5 +1,6 @@
 .attribution { 
     font-size: 11px; text-align: center;
+    margin-top: 20px;
 }
 .attribution a { 
     color: hsl(228, 45%, 44%); 
@@ -12,8 +13,8 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: auto;
-    height: 923px;
+    width: 100%;
+    min-height: 100vh;
 }
 
 .card {
@@ -57,9 +58,3 @@ p {
     box-sizing: border-box;
   }
 
-  /* Mobile Styles */
-@media only screen and (max-width: 400px) {
-    body {
-      height: 836px;
-    }
-  }
