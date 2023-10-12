@@ -8,16 +8,19 @@
 body {
     font-family: "Outfit", sans-serif;
     background-color: hsl(212, 45%, 89%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: 923px;
 }
 
 .card {
     width: 320px;
     height: 500px;
-    margin: 200px auto;
     border-radius: 20px;
     background-color: hsl(0, 0%, 100%);
-    display: flex;
-    flex-direction: column;
     box-shadow: 5px 5px 5px rgba(90, 89, 89, 0.2);
 }
 
@@ -37,18 +40,25 @@ h2 {
     margin-top: 35px;
     font-size: 20px;
     text-align: center;
+    font-weight: 700;
 }
 
 p {
     margin: 20px 30px;
     font-size: 15px;
     text-align: center;
-}
-
-.improve {
-    font-weight: 700;
-}
-
-.scan-qr {
     font-weight: 400;
 }
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  /* Mobile Styles */
+@media only screen and (max-width: 400px) {
+    body {
+      height: 836px;
+    }
+  }
