@@ -38,10 +38,12 @@ img {
 }
 
 h2 {
-    margin-top: 35px;
+    
+    margin: 40px 34px 0 34px;
     font-size: 20px;
     text-align: center;
     font-weight: 700;
+    color: hsl(218, 44%, 22%);
 }
 
 p {
@@ -49,7 +51,7 @@ p {
     font-size: 15px;
     text-align: center;
     font-weight: 400;
-    color: grey;
+    color: hsl(220, 15%, 55%);
 }
 
 * {
